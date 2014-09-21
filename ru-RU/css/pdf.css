@@ -1,0 +1,153 @@
+/* Cover Page styles */
+
+html {
+	height: 250mm;
+}
+
+body.cover {
+	height: 100%;
+	background-color:#fff;
+	padding: 0px;
+	font-family:"Droid Sans",Arial,sans-serif;
+	font-weight:bold;
+	font-size: 18px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+body.cover > div {
+    height: 100%;
+}
+
+body.cover * {
+	text-align: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body.cover div.logo {
+	height: 30%;
+   background-position: 50% 0%;
+	margin-top: 15mm;
+	background-image: url(../images/title_logo.svg);
+	background-repeat: no-repeat;
+}
+
+
+body.cover div.leader {
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 2em;
+}
+
+body.cover div.product {
+	display: inline;
+   font-style:italic;
+   font-size:20px;
+   font-weight:normal;
+}
+
+body.cover div.version {
+	display: inline;
+   font-style:italic;
+   font-size:20px;
+   font-weight:normal;
+}
+
+body.cover div.docname {
+   font-size: 40px;
+	font-weight: 600;
+	min-height: 10%;
+	line-height: 40px;
+}
+
+body.cover div.subtitle {
+   
+	height: 20%;
+	font-weight:300;
+	font-size: 20px;
+	color: black;
+	border-top: .1em solid black;
+	padding-top: 40px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+body.cover div.authors {
+}
+
+body.cover div.author {
+	float: left;
+	min-width: 33%;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+div.draft {
+	background-image: url(../images/watermark-draft.png);
+	background-repeat: repeat-y;
+   background-position: center;	
+}
+
+.titlepages {
+   page-break-before: always;
+	text-align: left;
+}
+
+.titlepages > div {
+    height: 100%;
+}
+.titlepages .legalnotice {
+	page-break-before: always;
+}
+
+.titlepages .title {
+	color: black;
+	font-weight: normal;
+	margin-bottom: 0.1em;
+}
+
+.titlepages .subtitle {
+	color: black;
+	font-weight: normal;
+	text-align: left;
+	margin-top: 0.1em;
+	margin-bottom: 2em;
+}
+
+.titlepages .contributor {
+	margin-bottom: 1em;
+	font-size: 12px;
+}
+
+.titlepages .abstract {
+	page-break-before: avoid !important;
+}
+
+.titlepages .abstract h1,
+.titlepages .keywords h1,
+.titlepages .legalnotice h1 {
+   font-size:20px;
+}
+
+.titlepages .abstract div,
+.titlepages .keywords div,
+.titlepages .legalnotice div {
+   font-size:18px;
+   font-weight:normal;
+}
+
+.titlepages h1 {
+	color: black;
+	font-weight: normal;
+}
+
+.titlepages .editors h1,
+.titlepages .othercredit h1,
+.titlepages .legalnotice h1,
+.titlepages .keywords h1,
+.titlepages .abstract h1 {
+	font-weight: bold;
+}
+

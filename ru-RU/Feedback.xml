@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % COMMON_ENTITIES SYSTEM "Common.ent">
+%COMMON_ENTITIES;
+]>
+<section>
+  <title>Обратная связь</title>
+  <indexterm>
+    <primary>обратная связь</primary>
+    <secondary>контактная информация</secondary>
+  </indexterm>
+  <para>Задать вопрос автору, сообщить о найденных ошибках или выдвинуть предложения можно  посредством электронной почты <email>roman.yagodin@gmail.com</email> или через веб-сайт: <ulink url="http://sites.google.com/site/roman7yagodin">http://sites.google.com/site/roman7yagodin</ulink>. На веб-сайте автора также доступны свежие версии учебных материалов.</para>
+</section>

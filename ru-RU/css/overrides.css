@@ -1,0 +1,119 @@
+body {
+   font-size:18px;
+  /* font-family:"STIXGeneral","DejaVu Serif","Times New Roman",serif; */
+  /* font-family:"Liberation Serif",Times,serif; */
+  font-family:"Droid Serif",Times,serif;
+}
+
+a:link {
+	color:#0066cc;
+}
+
+a:visited {
+	color:#6699cc;
+}
+
+h1 {
+	color:#a70000;
+}
+
+div.producttitle {
+	color:#a70000;
+}
+
+.section h1.title {
+	color:#a70000;
+}
+
+
+h2,h3,h4,h5,h6 {
+	color:#a70000;
+}
+
+table {
+	border:1px solid #aaa;
+}
+
+table th {
+	background-color:#900;
+}
+
+table tr.even td {
+	background-color:#f5f5f5;
+}
+
+#title a {
+	height:54px;
+}
+
+.term{
+	color:#a70000;
+}
+
+.revhistory table th {
+	color:#a70000;
+}
+
+.titlepage .edition {
+	color: #a70000;
+}
+
+span.remark{
+	background-color: #ffff00;
+}
+
+ul {
+    list-style-image: inherit;
+    list-style-type: inherit;
+}
+
+p.title {
+   text-align:center;
+}
+
+.figure p.title {
+   margin-top:1em;
+}
+
+br.figure-break {
+   height:0;
+   line-height:0;
+   display:none;
+}
+
+.section > div > div > div > h3.title,
+h3.title {
+    font-size:18px;
+}
+
+.guibutton, .guilabel, .guimenu, .guisubmenu, .guimenuitem, .application {
+   font-size:inherit;
+   font-family:"Droid Sans",Arial,sans-serif;
+   /* font-family:"Liberation Sans",Arial,sans-serif; */
+   font-weight:bold;
+}
+
+.code,  .command, .filename, .keycap, .keycap strong, .classname, .literal {
+   /* font-family:"Liberation Mono",Courier,monospace; */
+   font-family:"Droid Sans Mono",Courier,monospace; 
+   font-weight:normal;
+}
+
+.programlisting, .screen {
+   /* font-family:"Liberation Mono",Courier,monospace; */
+   /* font-family:"Anonymous Pro","Droid Sans Mono",Courier,monospace; */
+   font-family:"Droid Sans Mono",Courier,monospace;
+   /*font-size:20px;*/
+}
+
+.perl_Keyword, .perl_DataType {
+   font-weight:bold;
+}
+
+.foreignphrase {
+   font-family:"Droid Sans",Arial,sans-serif;
+   font-style:italic;
+}
+
+
+
